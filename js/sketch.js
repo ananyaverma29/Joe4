@@ -346,7 +346,7 @@ function removeCoin(boy, coin){
 function createStone()
 {
 
-  var stone = createSprite(canW+30,canH/2+150, 10, 10);
+  var stone = createSprite(canW+30,canH/2+300, 10, 10);
   stone.addImage(stoneImage);
   stone.scale=0.5;
   stone.velocityX = -5;
